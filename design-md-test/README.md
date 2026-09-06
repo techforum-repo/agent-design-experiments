@@ -38,6 +38,10 @@ from before there was a second vendor to compare against — renamed for
 symmetry with `codex-*`; content unchanged, verified by checksum both times
 this repo was restructured.)
 
+`codex-blind/post.html`, `codex-google/post.html`, `codex-vercel/post.html`
+are real evidence too, not disposable scratch — the article's "reran through
+Codex" update cites this exact run. Same don't-overwrite rule applies.
+
 `shots/` holds working screenshots taken while writing the article
 (`compare3.sh` regenerates the top-of-page ones).
 

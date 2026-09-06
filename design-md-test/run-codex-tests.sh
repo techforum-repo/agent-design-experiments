@@ -17,7 +17,9 @@
 # SAFETY: always writes to codex-blind/, codex-google/, codex-vercel/ --
 # never into claude-blind/, claude-google/, claude-vercel/ -- so it
 # structurally cannot overwrite the original Claude Code evidence those
-# hold, regardless of flags.
+# hold, regardless of flags. codex-*/'s own post.html files are cited by
+# the article too now, so the usual refuse-unless---force guard below
+# protects them the same way claude-*/'s does.
 #
 # Usage: ./run-codex-tests.sh [--force]
 
