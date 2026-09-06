@@ -1,0 +1,22 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# codex-*/ is excluded here for a specific reason, not vendor preference:
+# claude-*/ holds the exact evidence already cited (numbers, quotes,
+# screenshots) in the published, fact-checked article, so it must never
+# silently change. Nothing published yet depends on a specific byte of
+# codex-*/ output, so it's treated as reproducible scratch by default.
+# Remove this line if you want to commit a specific Codex run's results
+# (e.g. once an article cites them the same way).
+codex-blind/
+codex-google/
+codex-vercel/
+
+# Local scratch, if any test output lands here by accident
+*.tmp
