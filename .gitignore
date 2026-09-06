@@ -6,3 +6,8 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# component-selection-test/ excluded for now -- the second post isn't
+# ready yet. Files stay on disk, just untracked; remove this line once
+# that post is finalized and its evidence should be committed.
+component-selection-test/
