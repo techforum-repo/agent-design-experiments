@@ -1,4 +1,4 @@
-# Agent Design Experiments
+> **This repository has moved.** It now lives in [`ai-experiments/agent-design-experiments`](https://github.com/techforum-repo/ai-experiments/tree/main/agent-design-experiments). This repo is archived and read-only.# Agent Design Experiments
 
 Reproducible tests of one question, from two angles: what actually happens
 when a coding agent has to work from a design system, instead of a human
